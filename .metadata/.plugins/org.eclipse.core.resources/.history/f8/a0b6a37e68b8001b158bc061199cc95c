@@ -1,0 +1,17 @@
+package com.opentesting.utils;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println(ExcelUtils.getRowCount());
+		System.out.println(ExcelUtils.getColumnCount());
+		
+		//ArrayList<LinkedHashMap>data=ExcelUtils.readExceldatainmap("RUNMANAGER");
+		
+		//System.out.println(data);
+	}
+
+}

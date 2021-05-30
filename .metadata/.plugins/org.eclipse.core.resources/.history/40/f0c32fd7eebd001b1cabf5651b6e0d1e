@@ -1,0 +1,46 @@
+package com.opentesting.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.opentesting.driver.DriverManager;
+import com.opentesting.enums.WaitStrategy;
+import com.opentesting.factories.ExplicitWaitFactory;
+import com.opentesting.reports.ExtentLogger;
+
+public final class BasePage {
+
+	private BasePage()
+	{
+
+	}
+
+
+	protected void click(By by,WaitStrategy waitstrategy,String element)
+	{
+		ExplicitWaitFactory.performExplicitwait(by, WaitStrategy.CLICKABLE).click();;
+		ExtentLogger.pass(element+  "is clicked");
+	}
+
+	protected void sendKeys(By by,String value,WaitStrategy waitstrategy,String element) throws Exception
+	{
+
+		ExplicitWaitFactory.performExplicitwait(by, WaitStrategy.PRESENCE).sendKeys(value);;
+		ExtentLogger.pass(value +"  is entered in"+  element,true);
+	}
+	
+	protected WebElement getElement()
+	{
+		return null;
+		
+	}
+
+
+	protected String getTitle()
+	{
+
+		return DriverManager.getDriver().getTitle();	
+	}
+
+
+}

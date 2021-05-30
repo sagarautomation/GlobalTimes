@@ -1,0 +1,54 @@
+package com.opentesting.listeners;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+
+import org.testng.IMethodInstance;
+import org.testng.IMethodInterceptor;
+import org.testng.ITestContext;
+
+import com.opentesting.utils.ExcelUtils;
+
+
+public class MethodInterceptor implements IMethodInterceptor {
+
+	@Override
+	public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext arg1) {
+		
+		List<IMethodInstance>testcases=new ArrayList<>();
+		
+		
+		
+		for(IMethodInstance method:methods)      
+		{
+			
+			System.out.println("Methods name is"+method.getMethod().getMethodName());
+			for(LinkedHashMap<String, String>runmanagerdetails:ExcelUtils.readExceldatainmap("RUNMANAGER"))
+			{
+				if(method.getMethod().getMethodName().equalsIgnoreCase(runmanagerdetails.get("Testname")))
+				{
+					System.out.println(method.getMethod().getMethodName()  +  runmanagerdetails.get("testname"));
+					if(runmanagerdetails.get("execute").equalsIgnoreCase("Yes"))
+					{
+						method.getMethod().setPriority(Integer.parseInt(runmanagerdetails.get("priority")));
+						method.getMethod().setInvocationCount(Integer.parseInt(runmanagerdetails.get("count")));
+						method.getMethod().setDescription(runmanagerdetails.get("testdescription"));
+						testcases.add(method);
+					}
+					
+					
+					
+				}
+			}
+			
+				
+		}
+		
+		
+		
+		return testcases;
+
+	}
+}

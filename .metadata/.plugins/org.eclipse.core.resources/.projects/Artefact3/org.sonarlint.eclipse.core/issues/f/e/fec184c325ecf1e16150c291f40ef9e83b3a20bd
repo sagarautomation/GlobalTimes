@@ -1,0 +1,23 @@
+
+{
+java:S1192"FDefine a constant instead of duplicating this literal "sagar" 4 times.(‰ˆïøşÿÿÿÿHé‚RCRITICALZ
+CODE_SMELL
+‹
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "a".(‰ˆïøşÿÿÿÿHí‚RMINORZ
+CODE_SMELL
+o
+java:S1128"BRemove this unused import 'org.apache.tools.ant.types.Assertions'.(°àÙHã‚RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ºÆØ°øÿÿÿÿHğ‚RMAJORZ
+CODE_SMELL
+€
+java:S1192"KDefine a constant instead of duplicating this literal "Automation" 4 times.(‰ˆïøşÿÿÿÿHå‚RCRITICALZ
+CODE_SMELL
+f
+java:S1128"9Remove this unused import 'org.testng.asserts.Assertion'.(Éˆ¼–Hï‚RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿHä‚RMAJORZ
+CODE_SMELL
+[
+java:S1128".Remove this unused import 'org.testng.Assert'.(Ø£ÿ§Hî‚RMINORZ
+CODE_SMELL

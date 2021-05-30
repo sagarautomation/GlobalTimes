@@ -1,0 +1,85 @@
+
+i	java:S106<"9Replace this use of System.out or System.err by a logger.(ÕÙÈÚşÿÿÿÿH¡sRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¿Œšö™/H¢sRMAJORZ
+CODE_SMELL
+d	java:S106&"9Replace this use of System.out or System.err by a logger.(º¹»H£sRMAJORZ
+CODE_SMELL
+y	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏùÆ·H¤sRMINORZ
+CODE_SMELL
+d	java:S106P"9Replace this use of System.out or System.err by a logger.( ¶§‹H¥sRMAJORZ
+CODE_SMELL
+i	java:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH¦sRMAJORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(ã×H§sRMAJORZ
+CODE_SMELL
+i	java:S1062"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH¨sRMAJORZ
+CODE_SMELL
+i	java:S106Q"9Replace this use of System.out or System.err by a logger.(£ßÿ¨øÿÿÿÿH©sRMAJORZ
+CODE_SMELL
+i	java:S106I"9Replace this use of System.out or System.err by a logger.(ÆíùùÿÿÿÿHªsRMAJORZ
+CODE_SMELL
+q	java:S106‡"9Replace this use of System.out or System.err by a logger.(ä®¬ıÿÿÿÿ8¤Æö™/H«sRMAJORZ
+CODE_SMELL
+d	java:S106O"9Replace this use of System.out or System.err by a logger.(¹êööH¬sRMAJORZ
+CODE_SMELL
+i	java:S106S"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH­sRMAJORZ
+CODE_SMELL
+y	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä§ÂH®sRMINORZ
+CODE_SMELL
+i	java:S106'"9Replace this use of System.out or System.err by a logger.( íôüÿÿÿÿH¯sRMAJORZ
+CODE_SMELL
+d	java:S106m"9Replace this use of System.out or System.err by a logger.(²¨ç÷H°sRMAJORZ
+CODE_SMELL
+i	java:S106z"9Replace this use of System.out or System.err by a logger.(¡ªìòüÿÿÿÿH±sRMAJORZ
+CODE_SMELL
+i	java:S1063"9Replace this use of System.out or System.err by a logger.(ÆíùùÿÿÿÿH²sRMAJORZ
+CODE_SMELL
+q	java:S106†"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤Æö™/H³sRMAJORZ
+CODE_SMELL
+…	java:S100u"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÎÑÕùÿÿÿÿ8¿Œšö™/H´sRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHµsRMAJORZ
+CODE_SMELL
+]
+java:S1153l"1Directly append the argument of String.valueOf().(œÒâ—H¶sRMINORZ
+CODE_SMELL
+d	java:S1069"9Replace this use of System.out or System.err by a logger.(ó§—úH·sRMAJORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ë¢şÿÿÿÿÿ8²°§ö™/H¸sRMINORZ
+CODE_SMELL
+q	java:S106‰"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤Æö™/H¹sRMAJORZ
+CODE_SMELL
+i	java:S106$"9Replace this use of System.out or System.err by a logger.(áöÛÄşÿÿÿÿHºsRMAJORZ
+CODE_SMELL
+i	java:S106;"9Replace this use of System.out or System.err by a logger.(Ã šøÿÿÿÿH»sRMAJORZ
+CODE_SMELL
+y	java:S100Y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‘©’H¼sRMINORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö³ÆıÿÿÿÿH½sRMINORZ
+CODE_SMELL
+d	java:S106("9Replace this use of System.out or System.err by a logger.(Ïñ²µH¾sRMAJORZ
+CODE_SMELL
+y	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ÏÕäH¿sRMINORZ
+CODE_SMELL
+i	java:S106R"9Replace this use of System.out or System.err by a logger.(öŞ§ÓÿÿÿÿÿHÀsRMAJORZ
+CODE_SMELL
+q	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(¡ªìòüÿÿÿÿ8¤Æö™/HÁsRMAJORZ
+CODE_SMELL
+i	java:S106="9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÂsRMAJORZ
+CODE_SMELL
+]
+java:S1153l"1Directly append the argument of String.valueOf().(œÒâ—HÃsRMINORZ
+CODE_SMELL
+d	java:S106:"9Replace this use of System.out or System.err by a logger.(ÙÎ™µHÄsRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¬˜ı¶HÅsRMAJORZ
+CODE_SMELL
+y	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÆÙŸHÆsRMINORZ
+CODE_SMELL
+i	java:S106H"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÇsRMAJORZ
+CODE_SMELL
+i	java:S106)"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÈsRMAJORZ
+CODE_SMELL
+d	java:S106^"9Replace this use of System.out or System.err by a logger.(¶ÏÛ¯HÉsRMAJORZ
+CODE_SMELL

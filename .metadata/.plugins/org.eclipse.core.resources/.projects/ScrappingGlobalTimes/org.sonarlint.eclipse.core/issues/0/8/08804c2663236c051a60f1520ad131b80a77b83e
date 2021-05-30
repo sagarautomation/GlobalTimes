@@ -1,0 +1,11 @@
+
+o	java:S125B"<This block of commented-out lines of code should be removed.(Ú°à¬8ÊĞØ›/H˜®RMAJORZ
+CODE_SMELL
+˜
+java:S1488&"_Immediately return this expression instead of assigning it to the temporary variable "newFile".(¢§Â¤şÿÿÿÿ8£Éî»›/HÔ­RMINORZ
+CODE_SMELL
+r
+java:S22595"@A "NullPointerException" could be thrown; "fo" is nullable here.(ş”ı­ıÿÿÿÿ8ˆ³ÄÙ›/Hà®RMAJORZBUG
+c
+java:S5869&"*Remove duplicates in this character class.(¢§Â¤şÿÿÿÿ8ãé»›/HÆ­RMAJORZ
+CODE_SMELL

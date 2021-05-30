@@ -1,0 +1,83 @@
+package Opentesting.SeleniumPractice;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+
+public class WorldometerTest {
+	
+	public static WebDriver driver=null;
+  @Test
+  public void f() {
+	  
+	  
+	//div[@class='maincounter-number']//span[@class='rts-nr-int rts-nr-10e9']
+	  
+	//div[@class='maincounter-number']
+	 // String text=driver.findElement(By.xpath("//div[@class='maincounter-number']//span")).getText();
+	  List<WebElement>el=driver.findElements(By.xpath("//div[@class='maincounter-number']//span"));
+	  //7,865,707,717
+	  //div[@class='maincounter-number']//span[@class='rts-nr-thsep']
+	  
+	  //rts-nr-int rts-nr-10e9
+	  //rts-nr-int rts-nr-10e6
+	  //rts-nr-int rts-nr-10e3
+	  //rts-nr-int rts-nr-10e0
+	  
+	  //div[@class='maincounter-number']//span[@class='rts-nr-int rts-nr-10e9']
+	  //arg+String.valueof(index)+"']"
+	  while(true)
+	  {
+		  //keep getting the element text using selenium
+		  //break the loop after few seconds
+		  //20 seconds
+		  break;
+	  } 
+	  String arg="//div[@class='maincounter-number']//span[@class='rts-nr-int rts-nr-10e";
+	  getCurrentworldpopulation(arg, 9);
+	  
+	  
+	  
+  }
+  
+  public void getCurrentworldpopulation(String arg,int index)
+  {
+	  String currentworldpopulation="";
+	  while(index>=0)
+	  {
+		  
+		  currentworldpopulation=currentworldpopulation+driver.findElement(By.xpath(arg+String.valueOf(index)+"']")).getText();
+		  index=index-3;
+	  }
+	  
+	  System.out.println("Current world population is"+currentworldpopulation);
+	  
+  }
+  
+  @BeforeClass
+  public void beforeClass() {
+	  
+	  System.setProperty("webdriver.chrome.driver", "D:\\Workspace\\SeleniumPractice\\src\\test\\java\\TestResource\\Drivers\\chromedriver.exe");
+	   driver=new ChromeDriver();
+	  driver.get("https://www.worldometers.info/world-population/");
+	  driver.manage().window().maximize();
+	  
+	  
+  }
+
+  @AfterClass
+  public void afterClass() {
+	  
+	  
+  }
+
+}

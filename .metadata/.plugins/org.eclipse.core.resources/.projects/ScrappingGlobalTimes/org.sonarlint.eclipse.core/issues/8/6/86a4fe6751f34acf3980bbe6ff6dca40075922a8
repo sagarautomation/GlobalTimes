@@ -1,0 +1,35 @@
+
+q	java:S106^"9Replace this use of System.out or System.err by a logger.(Ü³´şùÿÿÿÿ8á‹Šİ›/Hì°RMAJORZ
+CODE_SMELL
+l	java:S106&"9Replace this use of System.out or System.err by a logger.(ÎÈ¡£8·úˆİ›/Hæ°RMAJORZ
+CODE_SMELL
+q	java:S106D"9Replace this use of System.out or System.err by a logger.(ô÷ëàúÿÿÿÿ8·úˆİ›/Hä°RMAJORZ
+CODE_SMELL
+†	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¯›Øıÿÿÿÿ8±°Æßš/HÑªRMINORZ
+CODE_SMELL
+l	java:S106g"9Replace this use of System.out or System.err by a logger.(¬Ñğ8˜æ¹Ù›/HĞ®RMAJORZ
+CODE_SMELL
+P
+java:S1116&"Remove this empty statement.(ÎÈ¡£8ÉØ«¼š/HÕªRMINORZ
+CODE_SMELL
+l	java:S106u"9Replace this use of System.out or System.err by a logger.(—šÈÏ8·úˆİ›/Hå°RMAJORZ
+CODE_SMELL
+q	java:S106n"9Replace this use of System.out or System.err by a logger.(ßŞ“Ëúÿÿÿÿ8›Š‰Û›/HÖ¯RMAJORZ
+CODE_SMELL
+	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÁğÊ8åõ€½š/HÖªRMINORZ
+CODE_SMELL
+Z
+java:S1075S"&Remove this hard-coded path-delimiter.(Ì´ÿ…8†‰ßØ›/HÃ®RMINORZ
+CODE_SMELL
+i
+java:S1068"0Remove this unused "mainSection2" private field.(¤–Öşüÿÿÿÿ8í¿¤¼š/HÒªRMAJORZ
+CODE_SMELL
+°
+java:S11306"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ö¯›Øıÿÿÿÿ8†ŸøÜ›/HØ°RMINORZ
+CODE_SMELL
+l	java:S106V"9Replace this use of System.out or System.err by a logger.(Êµ‹‹8›Š‰Û›/HÕ¯RMAJORZ
+CODE_SMELL
+	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î£Ñ‹8í¿¤¼š/HÔªRMINORZ
+CODE_SMELL
+q	java:S106:"9Replace this use of System.out or System.err by a logger.(‡“ò™şÿÿÿÿ8ÛÓû¼š/HÓªRMAJORZ
+CODE_SMELL

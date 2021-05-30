@@ -1,0 +1,104 @@
+
+d
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ø¿ºŽš/HýŸRMINORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(¿‹±òýÿÿÿÿH™ RMAJORZ
+CODE_SMELL
+h	java:S125*"<This block of commented-out lines of code should be removed.(¦§ýHüŸRMAJORZ
+CODE_SMELL
+m
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8­í››/H“ RMINORZ
+CODE_SMELL
+d	java:S1065"9Replace this use of System.out or System.err by a logger.(¿ÙÏHŒ RMAJORZ
+CODE_SMELL
+V
+java:S1659ç"!Declare "end" on a separate line.(ºû‘8¬÷Ä´›/H¡£RMINORZ
+CODE_SMELL
+e	java:S106,"9Replace this use of System.out or System.err by a logger.(ºÙ¶ÞH† RMAJORZ
+CODE_SMELL
+r	java:S106Ê"9Replace this use of System.out or System.err by a logger.(…ßœ¥þÿÿÿÿ8¿ºÜŽš/H‚ RMAJORZ
+CODE_SMELL
+r	java:S106µ"9Replace this use of System.out or System.err by a logger.(“Ÿ÷Ÿüÿÿÿÿ8Êâú”™/H RMAJORZ
+CODE_SMELL
+Š
+java:S1128"VRemove this unused import 'org.apache.commons.collections4.bag.SynchronizedSortedBag'.(…½ôÎ8é‘õ™/HùŸRMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ØÞÍ®ùÿÿÿÿHûŸRMAJORZ
+CODE_SMELL
+e	java:S106"9Replace this use of System.out or System.err by a logger.(¨€×ÐH  RMAJORZ
+CODE_SMELL
+p	java:S125½"<This block of commented-out lines of code should be removed.(â³´8é‘õ™/HøŸRMAJORZ
+CODE_SMELL
+l	java:S106Á"9Replace this use of System.out or System.err by a logger.(§“‰q8é‘õ™/Hˆ RMAJORZ
+CODE_SMELL
+l	java:S106Œ"9Replace this use of System.out or System.err by a logger.(§“‰q8¬–úµ›/Hü¨RMAJORZ
+CODE_SMELL
+k
+java:S1128"8Remove this unused import 'ArraysCollection.Collection'.(žèÎq8­í››/HŠ RMINORZ
+CODE_SMELL
+k
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8­í››/HúŸRMINORZ
+CODE_SMELL
+p	java:S125Ö"<This block of commented-out lines of code should be removed.(ÄÂ´‰8óÁÊµ›/HÓ¦RMAJORZ
+CODE_SMELL
+p	java:S125®"<This block of commented-out lines of code should be removed.(Ú°à¬8¼Ÿõ’™/H¢ RMAJORZ
+CODE_SMELL
+U
+java:S1643Q"Use a StringBuilder instead.(Ìð¥³ýÿÿÿÿ8é‘õ™/Hž RMINORZ
+CODE_SMELL
+r	java:S106…"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8Çïø¶”/H‰ RMAJORZ
+CODE_SMELL
+e	java:S106x"9Replace this use of System.out or System.err by a logger.(¢Î€’H‡ RMAJORZ
+CODE_SMELL
+h
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷Ž”8Ø¿ºŽš/H’ RMINORZ
+CODE_SMELL
+S
+java:S1481"&Remove this unused "s" local variable.(Ö´©¨H RMINORZ
+CODE_SMELL
+`
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿH˜ RMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ðð¼HŸ RMINORZ
+CODE_SMELL
+d
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ø¿ºŽš/HŽ RMINORZ
+CODE_SMELL
+p
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8é‘õ™/HÿŸRMINORZ
+CODE_SMELL
+P
+java:S1643Š"Use a StringBuilder instead.(Ýí8¬–úµ›/Hû¨RMINORZ
+CODE_SMELL
+e	java:S106+"9Replace this use of System.out or System.err by a logger.(ùü„ÃH¡ RMAJORZ
+CODE_SMELL
+j	java:S106 "9Replace this use of System.out or System.err by a logger.(ô‚ºÇüÿÿÿÿH RMAJORZ
+CODE_SMELL
+r	java:S106 "9Replace this use of System.out or System.err by a logger.(º¸°©ÿÿÿÿÿ8ðÏ‘¶›/Hå©RMAJORZ
+CODE_SMELL
+b
+java:S1854"5Remove this useless assignment to local variable "s".(Ö´©¨H‹ RMAJORZ
+CODE_SMELL
+m	java:S106Þ"9Replace this use of System.out or System.err by a logger.(¢àóÄ8­í››/HþŸRMAJORZ
+CODE_SMELL
+e	java:S106"9Replace this use of System.out or System.err by a logger.(­Ê×ñH÷ŸRMAJORZ
+CODE_SMELL
+N
+java:S1643I"Use a StringBuilder instead.(ù£ÍŠýÿÿÿÿH RMINORZ
+CODE_SMELL
+`
+java:S1612Ú",Replace this lambda with a method reference.(¡ƒ¡8À¨Øµ›/Hé¦RMINORZ
+CODE_SMELL
+q	java:S1064"9Replace this use of System.out or System.err by a logger.( ïßøÿÿÿÿ8é‘õ™/H€ RMAJORZ
+CODE_SMELL
+_
+java:S5869É"*Remove duplicates in this character class.(—ò¥Ð8¹ÂÚŽš/Hš RMAJORZ
+CODE_SMELL
+h
+java:S1128
+"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8­í››/H‘ RMINORZ
+CODE_SMELL
+j	java:S106W"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿH— RMAJORZ
+CODE_SMELL
+b	java:S108“")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8´ƒ×¶›/HÐªRMAJORZ
+CODE_SMELL

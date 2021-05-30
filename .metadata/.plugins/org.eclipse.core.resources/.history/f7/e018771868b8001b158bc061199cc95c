@@ -1,0 +1,14 @@
+package com.opentesting.utils;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		ArrayList<LinkedHashMap>data=ExcelUtils.readExceldatainmap("RUNMANAGER");
+		System.out.println(data);
+	}
+
+}

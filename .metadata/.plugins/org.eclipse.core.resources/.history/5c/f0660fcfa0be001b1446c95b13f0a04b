@@ -1,0 +1,54 @@
+package com.opentesting.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.opentesting.driver.DriverManager;
+
+public final class HomePage extends BasePage{
+
+
+
+	private final By mainSection1=By.xpath("//div[@id='main_section01']//a");
+	private final By mainSection2=By.xpath("//div[@id='main_section02']//a");
+
+
+
+	public void print_all_links_from_section1()
+	{
+		getElements(mainSection1).
+		stream().
+		forEach(el->System.out.println(el.getAttribute("href")));;
+	}
+
+	public List<WebElement> get_all_links_from_section1()
+	{
+		return getElements(mainSection1);
+	}
+
+
+	public String getTitle()
+	{
+		return getpageTitle();
+	}
+	
+	
+	
+	public void navigate_to_all_links_one_by_one() throws InterruptedException
+	{
+		
+		for(WebElement el:getElements(mainSection1))
+		{
+			el.click();
+			Thread.sleep(2000);
+			DriverManager.getDriver().navigate().back();
+		}
+		
+	}
+
+
+
+
+}

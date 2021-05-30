@@ -1,0 +1,56 @@
+package listenerusecase;
+
+import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+import java.util.LinkedHashMap;
+
+import org.testng.IAnnotationTransformer;
+import org.testng.IMethodInstance;
+import org.testng.annotations.IConfigurationAnnotation;
+
+public class MyAnnotationTransformer implements IAnnotationTransformer {
+
+	@Override
+	public void transform(IConfigurationAnnotation annotation, Class testClass, Constructor testConstructor,
+			Method testMethod) {
+		
+		
+		
+			
+			
+				try {
+					for(LinkedHashMap<String, String>testdetails:ExcelReader.readData())
+					{
+						if(testMethod.getName().equalsIgnoreCase(testdetails.get("Name")))
+						{
+							if(testdetails.get("Execute").equalsIgnoreCase("Yes"))
+							{
+								//method.getMethod().setPriority(Integer.parseInt(testdetails.get("Priority")));
+								//method.getMethod().setInvocationCount(Integer.parseInt(testdetails.get("InvocationCount")));
+								//testcases.add(method);
+								System.out.println("Test case name is"+testMethod.getName());
+								
+								annotation.setEnabled(true);
+							}
+							else
+							{
+								annotation.setEnabled(false);
+
+							}
+							
+							
+							
+						}
+					}
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			
+			
+		
+		
+		
+	}
+
+}

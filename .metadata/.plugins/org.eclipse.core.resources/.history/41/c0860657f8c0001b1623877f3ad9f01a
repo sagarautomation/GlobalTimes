@@ -1,0 +1,115 @@
+package com.opentesting.pages;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Set;
+
+import org.apache.tools.ant.util.FileUtils;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.UnhandledAlertException;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
+import org.openqa.selenium.remote.UnreachableBrowserException;
+
+import com.opentesting.constants.FrameworkConstants;
+import com.opentesting.driver.DriverManager;
+import com.opentesting.reports.ExtentLogger;
+import com.opentesting.utils.FilesUtils;
+
+public final class HomePage extends BasePage{
+
+
+
+	private final By mainSection1=By.xpath("//div[@id='main_section01']//a");
+	private final By mainSection2=By.xpath("//div[@id='main_section02']//a");
+	private final By paragraphElement=By.xpath("//div[@class='article_right']");
+
+
+
+	public void print_all_links_from_section1()
+	{
+		getElements(mainSection1).
+		stream().
+		forEach(el->System.out.println(el.getAttribute("href")));;
+	}
+
+	public List<WebElement> get_all_links_from_section1()
+	{
+		return getElements(mainSection1, true);
+	}
+
+
+	public String getTitle()
+	{
+		return getpageTitle();
+	}
+
+
+
+	public void navigate_to_all_links_one_by_one_copy_paste_content_on_file() throws InterruptedException, IOException
+	{
+
+		List<WebElement>links=getElements(mainSection1);
+
+		Set<String>uniquelink=new HashSet<>();
+		for(int i=0;i<=links.size()-1;i++)
+		{
+			String linkUrl=links.get(i).getAttribute("href");
+			uniquelink.add(linkUrl);
+		}
+
+		for(String link:uniquelink)
+		{
+			try 
+			{
+				DriverManager.getDriver().switchTo().newWindow(WindowType.TAB);
+				DriverManager.getDriver().navigate().to(link);
+				JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+				js.executeScript("window.scrollBy(0,350)", "");
+				String paragraphText=getElement(paragraphElement).getText();
+				//create a directory
+				//create a file with currenttimestamp..
+				//copy the paragrapgh text in that file..
+				String path=FrameworkConstants.getResourcespath()+"/"+"testoutputfolder";
+				File contentfile=FilesUtils.createnewFile(path);
+				FilesUtils.writetoFile(contentfile, paragraphText);
+				System.out.println("Written");
+				
+				
+			}
+
+			catch(UnhandledAlertException e)
+			{
+				Alert a=DriverManager.getDriver().switchTo().alert();
+				a.accept();
+			}
+
+			catch(UnreachableBrowserException e)
+			{
+				/*Indicates there was a problem communicating with the browser beingcontrolled or the Selenium server.
+				The most common causes for this exception are: • 
+				The provided server address to RemoteWebDriver is invalid, so theconnection could not be established. 
+				The browser has died mid-test.*/
+			}
+			
+			catch(NoSuchElementException e)
+			{
+			}
+
+		}
+
+
+
+
+	}
+
+
+
+
+}

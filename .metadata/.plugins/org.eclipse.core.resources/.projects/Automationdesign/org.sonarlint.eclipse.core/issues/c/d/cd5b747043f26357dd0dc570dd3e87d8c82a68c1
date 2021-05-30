@@ -1,0 +1,10 @@
+
+u
+java:S1128"ARemove this unused import 'com.opentesting.driver.DriverManager'.(Î„¸¡8œê‚ž™/H°‡RMINORZ
+CODE_SMELL
+y
+java:S1128"@Remove this unused import 'org.openqa.selenium.TakesScreenshot'.(Žç³Üÿÿÿÿÿ8œê‚ž™/H±‡RMINORZ
+CODE_SMELL
+t
+java:S1128";Remove this unused import 'org.openqa.selenium.OutputType'.(Ð³—õýÿÿÿÿ8œê‚ž™/H²‡RMINORZ
+CODE_SMELL

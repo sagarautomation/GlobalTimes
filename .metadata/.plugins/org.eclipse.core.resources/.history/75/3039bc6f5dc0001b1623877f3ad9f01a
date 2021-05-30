@@ -1,0 +1,30 @@
+package com.opentesting.utils;
+
+import java.io.File;
+import java.nio.file.Files;
+
+import kotlin.jvm.Throws;
+
+public class FilesUtils {
+	
+	
+	public static void createDirectory(String path)
+	{
+		if(path==null)
+		{
+			new NullPointerException().printStackTrace();
+		}
+		File f=new File(path);
+		if(f.exists())
+		{
+			f.mkdir();
+		}
+	}
+	
+	
+	public static void main(String[]args)
+	{
+		
+	}
+
+}

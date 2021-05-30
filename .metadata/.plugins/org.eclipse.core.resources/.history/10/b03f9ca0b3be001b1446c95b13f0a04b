@@ -1,0 +1,80 @@
+package Opentesting.SeleniumPractice;
+
+import org.testng.annotations.Test;
+
+
+import org.testng.annotations.BeforeMethod;
+
+import java.time.Duration;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+
+public class Globaltimes {
+
+	public static WebDriver driver=null;
+
+
+	@BeforeMethod
+	public void beforeMethod() {
+
+		System.setProperty("webdriver.chrome.driver", "D:\\Workspace\\SeleniumPractice\\src\\test\\java\\TestResource\\Drivers\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get("https://www.globaltimes.cn/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+	}
+
+
+
+	@Test
+	public void f() throws InterruptedException {
+		
+		
+		List<WebElement>links=driver.findElements(By.xpath("//div[@id='main_section01']//a"));
+		Set<WebElement>uniquecount=new HashSet<>(links);
+		System.out.println("list size is"+links.size());
+		System.out.println("uniquecount size is"+uniquecount.size());
+
+		for(int i=0;i<=links.size()-1;i++)
+		{
+			String linkUrl=links.get(i).getAttribute("href");
+			System.out.println(linkUrl);
+			//System.out.println("clicking"+links.get(i).getText());
+			//links.get(i).click();
+			//Thread.sleep(2000);
+			
+			//WebElement el=driver.findElement(By.xpath("//*[@class='fixed icon svg-icon']"));
+			
+			//WebDriverWait t = new WebDriverWait(driver, Duration.ofSeconds(20)); 
+			//t.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//*[@class='fixed icon svg-icon']"))));
+			//driver.findElement(By.tagName("body")).sendKeys(Keys.CONTROL + "1");
+			
+		}
+		
+	}
+	
+	public String getwindowHandle()
+	{
+		String mainhandle=driver.getWindowHandle();
+		return mainhandle;
+	}
+
+
+
+
+	@AfterMethod
+	public void afterMethod() {
+	}
+
+}

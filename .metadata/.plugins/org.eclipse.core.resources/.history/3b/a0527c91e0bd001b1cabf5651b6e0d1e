@@ -1,0 +1,5 @@
+package com.opentesting.pages;
+
+public class BasePage {
+
+}

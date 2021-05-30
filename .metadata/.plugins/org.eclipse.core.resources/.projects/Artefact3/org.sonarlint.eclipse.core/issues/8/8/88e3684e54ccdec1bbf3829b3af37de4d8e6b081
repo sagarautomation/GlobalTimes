@@ -1,0 +1,21 @@
+
+
+java:S1319"lThe type of the "data" object should be an interface such as "Map" rather than the implementation "HashMap".(š„–ûÿÿÿÿH‹`RMINORZ
+CODE_SMELL
+s
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(£ÌhHŒ`RBLOCKERZBUG
+v
+java:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(÷ÿ»øÿÿÿÿÿH`RBLOCKERZBUG
+`
+java:S3740"/Provide the parametrized type for this generic.(š„–ûÿÿÿÿH`RMAJORZ
+CODE_SMELL
+[
+java:S3740)"/Provide the parametrized type for this generic.(ÿÎ™ÄH`RMAJORZ
+CODE_SMELL
+[
+java:S3740)"/Provide the parametrized type for this generic.(ÿÎ™ÄH`RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ûˆ¤üÿÿÿÿH‘`RMAJORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(•œÏ®H’`RMAJORZ
+CODE_SMELL

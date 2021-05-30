@@ -1,0 +1,69 @@
+package com.opentesting.pages;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.opentesting.driver.DriverManager;
+import com.opentesting.enums.WaitStrategy;
+import com.opentesting.factories.ExplicitWaitFactory;
+import com.opentesting.reports.ExtentLogger;
+import com.opentesting.reports.ExtentManager;
+
+public  class BasePage {
+
+	protected BasePage()
+	{
+
+	}
+	
+    //.log(Status.PASS, MarkupHelper.createOrderedList(Arrays.asList(new String[]{"Selenium","Appium","Rest Assured"})).getMarkup())
+
+
+
+	protected void click(By by,WaitStrategy waitstrategy,String element)
+	{
+		ExplicitWaitFactory.performExplicitwait(by, WaitStrategy.CLICKABLE).click();;
+		ExtentLogger.pass(element+  "is clicked");
+	}
+
+	protected void sendKeys(By by,String value,WaitStrategy waitstrategy,String element) throws Exception
+	{
+
+		ExplicitWaitFactory.performExplicitwait(by, WaitStrategy.PRESENCE).sendKeys(value);;
+		ExtentLogger.pass(value +"  is entered in"+  element,true);
+	}
+	
+	protected WebElement getElement(By by)
+	{
+		return DriverManager.getDriver().findElement(by);
+		
+	}
+	
+	
+	protected List<WebElement> getElements(By by)
+	{
+//		List<String>links=new ArrayList();
+//		for(WebElement ele:DriverManager.getDriver().findElements(by))
+//		{
+//			links.add(ele.getText());
+//		}
+		ExtentLogger.pass(MarkupHelper.createOrderedList(DriverManager.getDriver().findElements(by)));
+		return DriverManager.getDriver().findElements(by);
+		
+	}
+
+
+	protected String getpageTitle()
+	{
+
+		return DriverManager.getDriver().getTitle();	
+	}
+
+
+}

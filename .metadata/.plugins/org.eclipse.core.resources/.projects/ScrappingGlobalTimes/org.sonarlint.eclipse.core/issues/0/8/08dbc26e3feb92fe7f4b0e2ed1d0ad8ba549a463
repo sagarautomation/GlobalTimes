@@ -1,0 +1,74 @@
+
+…	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ïØÛ8ëê™/Hò†RMINORZ
+CODE_SMELL
+d
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ëê™/Hó†RMINORZ
+CODE_SMELL
+‰
+java:S3008+"URename this field "header_row" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÃ…º8ëê™/Hô†RMINORZ
+CODE_SMELL
+©
+java:S1319T"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(è¦Ã…şÿÿÿÿ8ëê™/Hõ†RMINORZ
+CODE_SMELL
+Š	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñğßùÿÿÿÿ8ëê™/Hö†RMINORZ
+CODE_SMELL
+Š	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñğßùÿÿÿÿ8ëê™/H÷†RMINORZ
+CODE_SMELL
+ª
+java:S1319ç"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼šüèüÿÿÿÿ8ëê™/Hø†RMINORZ
+CODE_SMELL
+t	java:S1252"<This block of commented-out lines of code should be removed.(šø–²üÿÿÿÿ8ëê™/Hù†RMAJORZ
+CODE_SMELL
+l
+java:S1874°"7Remove this use of "getCellTypeEnum"; it is deprecated.(« „°8ëê™/H‡RMINORZ
+CODE_SMELL
+Q
+java:S1116¾"Remove this empty statement.(ÎÇÅ8ëê™/H‚‡RMINORZ
+CODE_SMELL
+…	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ïØÛ8ëê™/Hƒ‡RMINORZ
+CODE_SMELL
+l	java:S106W"9Replace this use of System.out or System.err by a logger.(Ì£…Á8ëê™/H„‡RMAJORZ
+CODE_SMELL
+Š	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñğßùÿÿÿÿ8ëê™/H…‡RMINORZ
+CODE_SMELL
+…	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ïØÛ8ëê™/H†‡RMINORZ
+CODE_SMELL
+c
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ëê™/H‡‡RMINORZ
+CODE_SMELL
+i
+java:S1128"0Remove this unused import 'java.util.Map.Entry'.(±şê¾úÿÿÿÿ8ëê™/Hˆ‡RMINORZ
+CODE_SMELL
+h
+java:S3740\"/Provide the parametrized type for this generic.(óú”Êÿÿÿÿÿ8ëê™/H‰‡RMAJORZ
+CODE_SMELL
+l	java:S106X"9Replace this use of System.out or System.err by a logger.(ÖöµÈ8ëê™/HŠ‡RMAJORZ
+CODE_SMELL
+“
+java:S2293è"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÏæ¢ùÿÿÿÿ8ëê™/H‹‡RMINORZ
+CODE_SMELL
+h
+java:S3740T"/Provide the parametrized type for this generic.(è¦Ã…şÿÿÿÿ8ëê™/HŒ‡RMAJORZ
+CODE_SMELL
+Š	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñğßùÿÿÿÿ8ëê™/H‡RMINORZ
+CODE_SMELL
+Y
+java:S2885("'Make "dateFormat" an instance variable.(Ÿçùäûÿÿÿÿ8ëê™/H‡RMAJORZBUG
+Š	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñğßùÿÿÿÿ8ëê™/H‡RMINORZ
+CODE_SMELL
+…	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ïØÛ8ëê™/H‡RMINORZ
+CODE_SMELL
+…	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ïØÛ8ëê™/H‘‡RMINORZ
+CODE_SMELL
+
+java:S3008)"TRename this field "file_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏéÖâÿÿÿÿÿ8ëê™/H’‡RMINORZ
+CODE_SMELL
+Œ
+java:S1450*"SRemove the "file" field and declare it as a local variable in the relevant methods.(ï…Ğšúÿÿÿÿ8ëê™/H“‡RMINORZ
+CODE_SMELL
+Š	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñğßùÿÿÿÿ8ëê™/H”‡RMINORZ
+CODE_SMELL
+p	java:S125‰"<This block of commented-out lines of code should be removed.(şÑÒÄ8ëê™/H•‡RMAJORZ
+CODE_SMELL
+…	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ïØÛ8ëê™/H¨‡RMINORZ
+CODE_SMELL

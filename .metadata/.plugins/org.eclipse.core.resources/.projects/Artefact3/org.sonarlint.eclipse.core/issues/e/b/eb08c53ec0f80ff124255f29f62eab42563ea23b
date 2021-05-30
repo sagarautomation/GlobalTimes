@@ -1,0 +1,10 @@
+
+c
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8ŒÇµ±”/Há†RMINORZ
+CODE_SMELL
+h
+java:S1066"/Merge this if statement with the enclosing one.(ƒ“˜œùÿÿÿÿ8õô³ù”/Hâ†RMAJORZ
+CODE_SMELL
+g
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8÷ÙÚ±”/Hä†RMINORZ
+CODE_SMELL

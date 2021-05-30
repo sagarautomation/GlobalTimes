@@ -1,0 +1,13 @@
+package FileHandling;
+
+import java.io.File;
+
+public class Filereader
+{
+	public static void main(String[]args)
+	{
+
+		
+	}
+
+}

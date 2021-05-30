@@ -1,0 +1,28 @@
+package com.opentesting.tests;
+
+import org.testng.annotations.Test;
+
+import com.opentesting.driver.DriverManager;
+
+public final class HomePageTest extends BaseTest {
+	
+	
+	private HomePageTest()
+	{
+		
+	}
+	
+	//TC_001
+	
+	@Test
+	public void TC_001()
+	{
+
+		String title=DriverManager.getDriver().getTitle();
+		System.out.println("Title is"+title);
+		
+	}
+
+	
+
+}

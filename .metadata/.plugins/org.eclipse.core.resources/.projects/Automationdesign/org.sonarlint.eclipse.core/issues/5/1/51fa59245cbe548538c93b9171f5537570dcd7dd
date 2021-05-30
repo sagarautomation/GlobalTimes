@@ -1,0 +1,6 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Òλήρϊÿÿÿÿ8…Φ°™/HdRMAJORZ
+CODE_SMELL
+h
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªΊ»Ϊύÿÿÿÿ8ώ–‚Β/H›dRMINORZ
+CODE_SMELL

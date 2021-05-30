@@ -1,0 +1,32 @@
+
+d
+java:S1481)",Remove this unused "eachmap" local variable.(ñÓÄÿÿÿÿÿ8âù±”/HÖ^RMINORZ
+CODE_SMELL
+k
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿH×^RMINORZ
+CODE_SMELL
+c
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ï‘Ö²”/HØ^RMINORZ
+CODE_SMELL
+n	java:S125+"<This block of commented-out lines of code should be removed.(â¶¿¹8âù±”/HÙ^RMAJORZ
+CODE_SMELL
+n	java:S125'"<This block of commented-out lines of code should be removed.(´Ëõ´8âù±”/HÚ^RMAJORZ
+CODE_SMELL
+t
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Á¿Û¤HÛ^RBLOCKERZBUG
+v
+java:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(÷ÿ»øÿÿÿÿÿHÜ^RBLOCKERZBUG
+¨
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ˆ¤«·ùÿÿÿÿ8Ê¿Ï²”/Hİ^RMINORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(ˆ¤«·ùÿÿÿÿ8Ãöí°”/HŞ^RMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ìÕ°ßıÿÿÿÿ8Êõ¼ù”/Hß^RMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(ô æĞşÿÿÿÿ8÷ÊÓ¯”/Hà^RMAJORZ
+CODE_SMELL
+f
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Ê¿Ï²”/Há^RMINORZ
+CODE_SMELL

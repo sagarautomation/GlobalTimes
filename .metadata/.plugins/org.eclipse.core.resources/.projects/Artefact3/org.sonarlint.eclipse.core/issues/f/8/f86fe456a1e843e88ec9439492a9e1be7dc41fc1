@@ -1,0 +1,14 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‰•£ÌûÿÿÿÿHÃGRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ù³¹HÄGRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(î€À¨üÿÿÿÿHÅGRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(²¡â«HÆGRMAJORZ
+CODE_SMELL
+d	java:S106!"9Replace this use of System.out or System.err by a logger.(óÍÈÅHÇGRMAJORZ
+CODE_SMELL
+p
+java:S1128"?Remove this unused import 'org.testng.annotations.BeforeClass'.(Ó¨Ş¨ûÿÿÿÿHÈGRMINORZ
+CODE_SMELL

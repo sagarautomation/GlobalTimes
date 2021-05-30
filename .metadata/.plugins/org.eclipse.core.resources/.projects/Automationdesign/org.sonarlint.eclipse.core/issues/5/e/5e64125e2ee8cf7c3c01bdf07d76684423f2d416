@@ -1,0 +1,9 @@
+
+~	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(òÒ‘ßÿÿÿÿÿ8õ™¯í—/Hì†RMAJORZ
+CODE_SMELL
+z
+java:S1128"ARemove this unused import 'com.opentesting.reports.ExtentLogger'.(ú»İüÿÿÿÿ8õ™¯í—/Hí†RMINORZ
+CODE_SMELL
+¥
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(òÒ‘ßÿÿÿÿÿ8õ™¯í—/Hî†RMINORZ
+CODE_SMELL

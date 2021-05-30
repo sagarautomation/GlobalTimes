@@ -1,0 +1,29 @@
+
+v	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(¿‰ùìûÿÿÿÿHŸjRMAJORZ
+CODE_SMELL
+
+java:S3008"TRename this field "CONFIGMAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦î«H jRMINORZ
+CODE_SMELL
+Y	java:S108(")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿH¡jRMAJORZ
+CODE_SMELL
+q	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(ÒùµH¢jRMAJORZ
+CODE_SMELL
+[
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½ÒşÿÿÿÿH£jRMINORZ
+CODE_SMELL
+k
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿH¤jRMINORZ
+CODE_SMELL
+q	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(²ÈìH¥jRMAJORZ
+CODE_SMELL
+c	java:S1062"9Replace this use of System.out or System.err by a logger.(°¼[H¦jRMAJORZ
+CODE_SMELL
+„
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦î«H§jRMINORZ
+CODE_SMELL
+p	java:S106F"9Replace this use of System.out or System.err by a logger.(‚é€Şûÿÿÿÿ8Ãªşä’/H¨jRMAJORZ
+CODE_SMELL
+x
+java:S21753"SA "HashMap<String, String>" cannot contain a "ConfigProperties" in a "String" type.(óô×H©jRMAJORZBUG
+v	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(¿‰ùìûÿÿÿÿHªjRMAJORZ
+CODE_SMELL

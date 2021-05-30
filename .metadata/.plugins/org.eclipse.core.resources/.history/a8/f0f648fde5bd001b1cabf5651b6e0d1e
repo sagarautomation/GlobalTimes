@@ -1,0 +1,10 @@
+package com.opentesting.pages;
+
+public final class BasePage {
+	
+	private BasePage()
+	{
+		
+	}
+
+}

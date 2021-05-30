@@ -1,0 +1,79 @@
+
+v
+java:S1192%"FDefine a constant instead of duplicating this literal "Apple" 3 times.(ááŠHˆRCRITICALZ
+CODE_SMELL
+b
+java:S1854"5Remove this useless assignment to local variable "s".(ÁĞ«çH§ˆRMAJORZ
+CODE_SMELL
+j
+java:S1197"8Move the array designator from the variable to the type.(Ğ‹ ³ıÿÿÿÿH«ˆRMINORZ
+CODE_SMELL
+e	java:S106,"9Replace this use of System.out or System.err by a logger.(±áôH±ˆRMAJORZ
+CODE_SMELL
+h	java:S125Q"<This block of commented-out lines of code should be removed.(ö·šÇH¸ˆRMAJORZ
+CODE_SMELL
+j	java:S106/"9Replace this use of System.out or System.err by a logger.(¢ËÉşÿÿÿÿH²ˆRMAJORZ
+CODE_SMELL
+b
+java:S1854"5Remove this useless assignment to local variable "b".(Ó˜ÒïH©ˆRMAJORZ
+CODE_SMELL
+w
+java:S1858:"E"el" is already a string, there's no need to call "toString()" on it.(—’«üÿÿÿÿHµˆRMINORZ
+CODE_SMELL
+q	java:S106~"9Replace this use of System.out or System.err by a logger.(­îåãıÿÿÿÿ8º¾¤ãš/H—‰RMAJORZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(û‘ŸùúÿÿÿÿH¢ˆRMINORZ
+CODE_SMELL
+e	java:S106"9Replace this use of System.out or System.err by a logger.(­ŸÅ®H­ˆRMAJORZ
+CODE_SMELL
+e	java:S106Q"9Replace this use of System.out or System.err by a logger.(ö·šÇH·ˆRMAJORZ
+CODE_SMELL
+m	java:S125I"<This block of commented-out lines of code should be removed.(Ä¢øÂøÿÿÿÿH¶ˆRMAJORZ
+CODE_SMELL
+g
+java:S1854"5Remove this useless assignment to local variable "c".(Ğ‹ ³ıÿÿÿÿH¨ˆRMAJORZ
+CODE_SMELL
+†
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(§’ÈåH³ˆRMINORZ
+CODE_SMELL
+e	java:S106."9Replace this use of System.out or System.err by a logger.(ö¤ÔH°ˆRMAJORZ
+CODE_SMELL
+f
+java:S1128"4Remove this unused import 'java.util.LinkedHashMap'.(ò†ŠŞùÿÿÿÿH£ˆRMINORZ
+CODE_SMELL
+m	java:S125_"<This block of commented-out lines of code should be removed.(‡ƒ‰øÿÿÿÿHÂˆRMAJORZ
+CODE_SMELL
+e
+java:S1197"8Move the array designator from the variable to the type.(Ó˜ÒïHªˆRMINORZ
+CODE_SMELL
+†
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(À«óšH®ˆRMINORZ
+CODE_SMELL
+_
+java:S1199^"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿH¡ˆRMINORZ
+CODE_SMELL
+h	java:S125l"<This block of commented-out lines of code should be removed.(„îáªHÊˆRMAJORZ
+CODE_SMELL
+S
+java:S1481"&Remove this unused "b" local variable.(Ó˜ÒïHÒˆRMINORZ
+CODE_SMELL
+X
+java:S1481"&Remove this unused "c" local variable.(Ğ‹ ³ıÿÿÿÿHÓˆRMINORZ
+CODE_SMELL
+e	java:S106!"9Replace this use of System.out or System.err by a logger.(±áôH¯ˆRMAJORZ
+CODE_SMELL
+j	java:S106:"9Replace this use of System.out or System.err by a logger.(—’«üÿÿÿÿH´ˆRMAJORZ
+CODE_SMELL
+r	java:S106€"9Replace this use of System.out or System.err by a logger.(€Ä°äÿÿÿÿÿ8º¾¤ãš/H˜‰RMAJORZ
+CODE_SMELL
+j
+java:S1197"8Move the array designator from the variable to the type.(©Ë®–øÿÿÿÿH¬ˆRMINORZ
+CODE_SMELL
+`
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿH¥ˆRMINORZ
+CODE_SMELL
+h	java:S125\"<This block of commented-out lines of code should be removed.(ÉÛˆÈHÀˆRMAJORZ
+CODE_SMELL
+S
+java:S1481"&Remove this unused "s" local variable.(ÁĞ«çHÔˆRMINORZ
+CODE_SMELL

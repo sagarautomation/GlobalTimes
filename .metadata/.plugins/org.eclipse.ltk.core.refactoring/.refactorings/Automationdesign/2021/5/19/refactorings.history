@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.opentesting.utils.ReadPropertyFile&apos; to &apos;PropertyUtils&apos;&#x0D;&#x0A;- Original project: &apos;Automationdesign&apos;&#x0D;&#x0A;- Original element: &apos;com.opentesting.utils.ReadPropertyFile&apos;&#x0D;&#x0A;- Renamed element: &apos;com.opentesting.utils.PropertyUtils&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ReadPropertyFile&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.opentesting.utils{ReadPropertyFile.java[ReadPropertyFile" matchStrategy="1" name="PropertyUtils" qualified="false" references="true" similarDeclarations="false" stamp="1619931783076" textual="false" version="1.0"/>
+</session>

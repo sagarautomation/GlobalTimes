@@ -1,0 +1,56 @@
+package com.opentesting.utils;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+
+import org.testng.annotations.DataProvider;
+
+public class DataProviderUtils {
+	
+	
+	/*getData will feed the test data to the test.Instead of declaring @Dataprovider for every test getdata served as common utility
+	 * that is used by test
+	 * 
+	 * Everytime the test method call getdata method the excel reading/initialization happens multiple time
+	 * so this can be optimized
+	 */
+
+	private ArrayList<LinkedHashMap> data;
+
+	@DataProvider
+	public Object[] getData(Method m)
+	{
+		
+		if(data.isEmpty())
+		{
+		 data=ExcelUtils.readExceldatainmap("DATA");
+		}
+		ArrayList<LinkedHashMap> newlist=new ArrayList<>();
+
+		String testname=m.getName();
+		for(LinkedHashMap<String, String>iterationdata:data)
+		{
+
+			if(iterationdata.get("testname").equalsIgnoreCase(testname))
+			{
+				if(iterationdata.get("execute").equalsIgnoreCase("yes"))
+				{
+					newlist.add(iterationdata);
+
+				}
+			}
+
+		}
+
+
+
+
+		return newlist.toArray();
+
+
+
+	}
+
+
+}
